@@ -1,0 +1,42 @@
+{
+  "name": "fanduelapi-mcp",
+  "version": "0.1.0",
+  "description": "MCP server (stdio) for FanDuel API: FanDuel Sportsbook player props, line moves, +EV and arbitrage for Claude, Cursor, Codex and any MCP client.",
+  "type": "module",
+  "bin": {
+    "fanduelapi-mcp": "bin/fanduelapi-mcp.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE",
+    "server.json"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "mcpName": "com.fanduelapi/server",
+  "keywords": [
+    "mcp",
+    "model context protocol",
+    "fanduel",
+    "odds",
+    "player props",
+    "sports betting",
+    "claude",
+    "cursor"
+  ],
+  "homepage": "https://fanduelapi.com/mcp",
+  "author": "Stunning Couches LLC <support@fanduelapi.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanduelapi/fanduelapi-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fanduelapi/fanduelapi-mcp/issues"
+  }
+}
