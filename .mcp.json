@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "fanduelapi": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "fanduelapi-mcp"
+      ],
+      "env": {
+        "FANDUEL_API_KEY": ""
+      }
+    }
+  }
+}
